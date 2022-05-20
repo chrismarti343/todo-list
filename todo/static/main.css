@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    
+}
+
+.card{
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 2px 2px 8px 5px #8f8d8d;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 45% auto auto auto auto;
+    padding: 3%;
+
+}
+
+h1{
+    padding: 2%;
+    color: red;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    padding: 2%;
+}
+
+.btn-input{
+    margin: 0 auto;
+    width: 40%;
+}
+
+
+.task{
+    background-color: #64d8b9;
+    padding-left:  3%;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 1%;
+    display:grid; 
+    justify-content:center;
+    align-items:center;
+
+}
+.modified{
+    border-radius: 5px;
+    border: 2px solid #73AD21;
+    padding: 2%;
+    margin: 1%;
+    display:grid; 
+    justify-content:center;
+    align-items:center;
+    
+}
+.card-delete {
+    padding-left: 3%;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 2%;
+    background-color: #c96060;
+    display:grid; 
+    justify-content:center;
+    align-items:center;
+  
+
+}
+
+.card-complete{
+    padding-left: 3%;
+    border-radius: 5px;
+    height: 50px;
+    padding: 2%;
+    margin: 2%;
+    background-color: #84b1d6;
+    display:grid; 
+    justify-content:center;
+    align-items:center;
+
+}
+
+.card-update{
+    padding-left: 3%;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 2%;
+    background-color: #c0be53;
+    display:grid; 
+    justify-content:center;
+    align-items:center;
+}
+
+p{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+strike{
+    color: red;
+}
